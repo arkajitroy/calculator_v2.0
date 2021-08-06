@@ -1,0 +1,164 @@
+
+body{
+    color: black;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container{
+    height: 620px;
+    width: 350px;
+    /* border: 1px solid rgb(255, 255, 255); */
+    
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.034) 0px 15px 12px;
+    border-radius: 10px;
+}
+
+.nametag{
+    font-family: sans-serif;
+    color: rgb(255, 0, 0);
+    margin-top: 20px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.display{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 80px;
+    width: 95%;
+    border: 2px solid white;
+}
+
+.display_main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    height: 55%;
+    width: auto;
+    color: Black;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: right;
+    font-size: 35px;
+}
+
+.display_temp{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    height: 35%;
+    width: auto;
+
+    color: rgb(145, 145, 145);
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: right;
+    font-size: 20px;
+}
+
+.display_mini{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 30px;
+    width: auto;
+    /* background-color: grey; */
+    color: rgba(54, 78, 129, 0.712);
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 15px;
+}
+
+.num_pad{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* border: 2px solid white; */
+    margin-top: 30px;
+    padding: 10px;
+    height: 70%;
+    width: 95%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 75px;
+    /* border: 2px solid white; */
+    background-color: rgba(0, 0, 0, 0.404);
+    box-shadow: rgba(71, 71, 71, 0.25) 0px 13px 27px -5px, rgba(83, 83, 83, 0.3) 0px 8px 16px -8px;
+    color: rgba(255, 255, 255, 0.61);
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.clear_all{
+    background-color: rgba(2, 7, 58, 0.733);
+}
+.clear_all:hover{
+    background-color: rgb(13, 28, 199);
+    color: whitesmoke;
+}
+
+.del{
+    background-color: rgba(2, 7, 58, 0.733);
+}
+
+.del:hover{
+    background-color: rgb(13, 28, 199);
+    color: whitesmoke;
+}
+
+.result_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(131, 4, 4, 0.671);
+    color: rgba(255, 255, 255, 0.61);
+    /* font-weight: bold; */
+    grid-row: 5;
+    grid-column: 3/span 2;
+    height: 70px;
+    width: 160px;
+    border-radius: 5px;
+    /* border: 2px solid white; */
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.result_btn:hover{
+    color: white;
+    background-color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+.op{
+    background-color: rgba(2, 7, 58, 0.733);
+}
+
+.op:hover{
+    background-color: rgb(13, 28, 199);
+    color: whitesmoke;
+}
